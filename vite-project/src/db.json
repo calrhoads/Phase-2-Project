@@ -1,0 +1,36 @@
+{
+    "Brands":[
+        {
+            "id": 1,
+            "name": "Almost" ,
+            "image": "https://www.thriftysigns.com/wp-content/uploads/2018/05/Almost-Skate-Logo.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Chocolate" ,
+            "image": "https://chocolateskateboards.com/site/assets/share/chocolate-sun-series.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Girl" ,
+            "image": "https://i.ebayimg.com/images/g/5xEAAOSwx-xj~OxI/s-l1600.gif"
+        }
+    ],
+    "Skaters":[
+        {
+            "id": 1,
+            "name": "Rodney Mullen",
+            "image": "https://almostskateboards.com/cdn/shop/articles/TEAM_Mullen_1296x.png?v=1647976027"
+        },
+        {
+            "id": 2,
+            "name": "Vincent Alvarez",
+            "image": "https://boardridingstorageus.blob.core.windows.net/images/resize/vincent-alvarez-2329.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Sean Malto",
+            "image": "https://www.mountaindew.com/wp-content/uploads/2022/12/19MD_Website-Images_Sean_1199x1335_R2.jpg"
+        }
+    ]
+}
