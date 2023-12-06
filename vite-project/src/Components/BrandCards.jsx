@@ -4,11 +4,9 @@ import React from "react"
 function BrandCards({brand}) {
     return (
         <div className="brand">
+            <h3>{brand.name}</h3>
             <img src={brand.image} />
-            <div className="brand_info">
-                <h3>{brand.name}</h3>
-            </div>
-
+            <button>FOLLOW</button>
         </div>
     )
 }

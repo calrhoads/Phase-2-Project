@@ -4,6 +4,7 @@
             "id": 1,
             "name": "Almost" ,
             "image": "https://www.thriftysigns.com/wp-content/uploads/2018/05/Almost-Skate-Logo.jpg"
+
         },
         {
             "id": 2,
@@ -20,7 +21,13 @@
         {
             "id": 1,
             "name": "Rodney Mullen",
-            "image": "https://almostskateboards.com/cdn/shop/articles/TEAM_Mullen_1296x.png?v=1647976027"
+            "image": "https://almostskateboards.com/cdn/shop/articles/TEAM_Mullen_1296x.png?v=1647976027",
+            "feed":[
+                "https://media.tenor.com/o1sxdKORagMAAAAd/rondey-mullen-john-rodney-mullen.gif",
+                "https://i.imgur.com/iG7CWMv.gif",
+                "https://i.pinimg.com/originals/92/59/d7/9259d7242225c239bfc6d7de0fa9c213.gif"               
+            ],
+            "following": true
         },
         {
             "id": 2,

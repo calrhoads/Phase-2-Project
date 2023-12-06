@@ -7,7 +7,7 @@ function Navbar(){
         <nav>
             <button onClick={() => {navigate('/BrandCatalogue')}} className="button">BRANDS 🛹</button>
             <button onClick={() => {navigate('/SkaterCatalogue')}} className="button">SKATERS 🏂</button>
-            <button>MY FEED 💥</button>
+            <button onClick={() => {navigate('/Feed')}} className="button">MY FEED 💥</button>
         </nav>
     )
 }
