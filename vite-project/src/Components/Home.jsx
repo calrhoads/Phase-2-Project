@@ -2,7 +2,8 @@ import { useState,useEffect } from 'react'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import BrandCatalogue from './BrandCatalogue'
 import SkaterCatalogue from './SkaterCatalogue'
-import BrandCards from './BrandCards'
+import Header from './Header'
+
 
 
 
@@ -32,6 +33,7 @@ function Home(){
         <Routes>
             <Route path='/' element={<div></div>} />
             <Route path='/BrandCatalogue' element={<BrandCatalogue brandList={brandList} />} />
+            <Route path='/SkaterCatalogue' element={<SkaterCatalogue skaterList={skaterList} />} />
         </Routes>
         </BrowserRouter>
         </>
