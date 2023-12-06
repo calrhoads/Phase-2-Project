@@ -1,10 +1,12 @@
 import React from "react";
 
-function SkaterFeed({skater}) {
+function SkaterFeed({skater,skaterGif}) {
     return (
     <>
         <div>
-            <img src={skater.feed} />
+            {skater.feed.map((skaterGif,index) => (
+                <img key={index} src={skaterGif} alt={`Feed Image ${index}`} />
+            ))}
         </div>
     </>
     )

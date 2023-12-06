@@ -1,15 +1,23 @@
+
 import React from 'react';
 import SkaterFeed from './SkaterFeed';
 
 function Feed({ skaterList }) {
-  const filteredSkaters = skaterList.filter(skater => skater.following === true);
+    const skaterGif = {
+        feed: [
+            "https://media.tenor.com/o1sxdKORagMAAAAd/rondey-mullen-john-rodney-mullen.gif",
+            "https://i.imgur.com/iG7CWMv.gif",
+            "https://i.pinimg.com/originals/92/59/d7/9259d7242225c239bfc6d7de0fa9c213.gif"
+            ]
+    }
+    const filteredSkaters = skaterList.filter(skater => skater.following === true);
 
   return (
     <>
       <h2>Your Feed</h2>
       <div className="feed">
         {filteredSkaters.map(skater => (
-          <SkaterFeed key={skater.id} skater={skater} />
+          <SkaterFeed key={skater.id} skater={skater} skaterGif={skaterGif}/>
         ))}
       </div>
     </>
