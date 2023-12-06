@@ -42,7 +42,7 @@ label {
   width:auto;
 }
 
-.brand-catalogue {
+/* .brand-catalogue {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -50,9 +50,9 @@ label {
   column-gap: 1em; 
   width:350px;
   overflow-y:auto;
-}
+} */
 
-.skater-catalogue {
+/* .skater-catalogue {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -60,9 +60,9 @@ label {
   column-gap: 1em; 
   width:350px;
   overflow-y:auto;
-}
+} */
 
-.vl {
+/* .vl {
   border-left: 1px solid white;
   height: 100%;
-}
+} */

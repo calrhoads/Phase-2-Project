@@ -30,6 +30,7 @@ function Home(){
     return(
         <>
         <BrowserRouter>
+        <Header />
         <Routes>
             <Route path='/' element={<div></div>} />
             <Route path='/BrandCatalogue' element={<BrandCatalogue brandList={brandList} />} />
