@@ -10,6 +10,7 @@ function SkaterCards({skater,patchSkatersFollowingStatus}) {
             <h3>{skater.name}</h3>
             <img src={skater.image} />
             {follow === false ? (
+           
             <button onClick={()=>{
                 patchSkatersFollowingStatus(id,true)
                 setFollow(true)}} className="primary">Follow</button>

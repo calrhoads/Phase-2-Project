@@ -39,7 +39,7 @@ function patchSkatersFollowingStatus(id,isFollowing) {
             following : isFollowing,
         })
     })
-    .then(r=>r.json)
+    .then(r=>r.json())
     .then(data => {
         const skaterFollowingStatus = skaterList.map(skater =>{
             if(skater.id === id){
