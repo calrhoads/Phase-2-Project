@@ -3,13 +3,17 @@ import React from 'react';
 import SkaterFeed from './SkaterFeed';
 
 function Feed({ skaterList }) {
-    const skaterGif = {
-        feed: [
-            "https://media.tenor.com/o1sxdKORagMAAAAd/rondey-mullen-john-rodney-mullen.gif",
-            "https://i.imgur.com/iG7CWMv.gif",
-            "https://i.pinimg.com/originals/92/59/d7/9259d7242225c239bfc6d7de0fa9c213.gif"
-            ]
-    }
+    // const skaterGif = {
+    //     feed: [
+    //         "https://media.tenor.com/o1sxdKORagMAAAAd/rondey-mullen-john-rodney-mullen.gif",
+    //         "https://i.imgur.com/iG7CWMv.gif",
+    //         "https://i.pinimg.com/originals/92/59/d7/9259d7242225c239bfc6d7de0fa9c213.gif"
+    //         ]
+    // }
+    console.log(skaterList)
+    // skaterList.map((skater)=> {
+    //     skater.feed.map((skate) => console.log(skate))
+    // }) use this with skaterGif once db.json is filled out with feed list
     const filteredSkaters = skaterList.filter(skater => skater.following === true);
 
   return (
@@ -17,7 +21,7 @@ function Feed({ skaterList }) {
       <h2>Your Feed</h2>
       <div className="feed">
         {filteredSkaters.map(skater => (
-          <SkaterFeed key={skater.id} skater={skater} skaterGif={skaterGif}/>
+          <SkaterFeed key={skater.id} skater={skater} />
         ))}
       </div>
     </>

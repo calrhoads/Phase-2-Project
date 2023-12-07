@@ -1,8 +1,8 @@
 import React from "react"
 import SkaterCards from "./SkaterCards"
-function SkaterCatalogue({skaterList}){
+function SkaterCatalogue({skaterList,patchSkatersFollowingStatus}){
     const mappedSkaters = skaterList.map(skater => {
-        return <SkaterCards key={skater.id} skater={skater}/>
+        return <SkaterCards key={skater.id} skater={skater} patchSkatersFollowingStatus={patchSkatersFollowingStatus}/>
     })
     return(
         <>

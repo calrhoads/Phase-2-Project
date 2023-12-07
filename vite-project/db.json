@@ -1,45 +1,76 @@
 {
-    "Brands":[
-        {
-            "id": 1,
-            "name": "Almost" ,
-            "image": "https://www.thriftysigns.com/wp-content/uploads/2018/05/Almost-Skate-Logo.jpg"
-
-        },
-        {
-            "id": 2,
-            "name": "Chocolate" ,
-            "image": "https://chocolateskateboards.com/site/assets/share/chocolate-sun-series.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Girl" ,
-            "image": "https://i.ebayimg.com/images/g/5xEAAOSwx-xj~OxI/s-l1600.gif"
-        }
-    ],
-    "Skaters":[
-        {
-            "id": 1,
-            "name": "Rodney Mullen",
-            "image": "https://almostskateboards.com/cdn/shop/articles/TEAM_Mullen_1296x.png?v=1647976027",
-            "feed":[
-                "https://media.tenor.com/o1sxdKORagMAAAAd/rondey-mullen-john-rodney-mullen.gif",
-                "https://i.pinimg.com/originals/6a/be/a4/6abea45c4684f2c133493a8539b18b75.gif",
-                "https://i.pinimg.com/originals/92/59/d7/9259d7242225c239bfc6d7de0fa9c213.gif"               
-            ],
-            "following": true
-        },
-        {
-            "id": 2,
-            "name": "Vincent Alvarez",
-            "image": "https://boardridingstorageus.blob.core.windows.net/images/resize/vincent-alvarez-2329.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Sean Malto",
-            "image": "https://www.mountaindew.com/wp-content/uploads/2022/12/19MD_Website-Images_Sean_1199x1335_R2.jpg"
-        }
-    ]
-
-
+  "Brands": [
+    {
+      "id": 1,
+      "name": "Almost",
+      "image": "https://www.thriftysigns.com/wp-content/uploads/2018/05/Almost-Skate-Logo.jpg",
+      "feed": [
+        "https://www.surfertoday.com/images/jamp/page/skateboard-brands.jpg",
+        "https://almostskateboards.com/cdn/shop/products/20323047_black_1_300x.jpg?v=1646605543",
+        "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66fb041-a5dd-4f2e-9bba-f83a80ed5e7a_1037x1017.jpeg"
+      ],
+      "following": false
+    },
+    {
+      "id": 2,
+      "name": "Chocolate",
+      "image": "https://chocolateskateboards.com/site/assets/share/chocolate-sun-series.jpg",
+      "feed": [
+        "https://cdn.skatedeluxe.com/images/content/manufacturers/description/chocolate-skateboards/chocolate-skateboards-og-banner.jpg",
+        "https://socalskateshop.com/mm5/graphics/00000001/33/Chocolate-Smile-T-Shirt-Black-1.jpg",
+        "https://chocolateskateboards.com/site/assets/feature_thumbs/reflective.jpg",
+        "https://i.pinimg.com/1200x/2f/65/60/2f65607094471637afff69ef72e36a16.jpg"
+      ],
+      "following": false
+    },
+    {
+      "id": 3,
+      "name": "Girl",
+      "image": "https://i.ebayimg.com/images/g/5xEAAOSwx-xj~OxI/s-l1600.gif",
+      "feed": [
+        "https://heroes-by-design.com/cdn/shop/products/dark-magician-skateboard-deck-skateboard-heroes-by-design-llc-238309_2048x.jpg?v=1668717588",
+        "https://www.sanrio.com/cdn/shop/products/SP22G_Board_Sanrio2022_Fake_1Carroll_600x.png?v=1672864441",
+        "https://www.nativeskatestore.co.uk/images/girl-skateboards-modern-skate-t-shirt-white-p20351-48988_medium.jpg",
+        "https://scene7.zumiez.com/is/image/zumiez/product_main_medium/Girl-3D-OG-Black-T-Shirt-_322205-front-US.jpg"
+      ],
+      "following": false
+    }
+  ],
+  "Skaters": [
+    {
+      "id": 1,
+      "name": "Rodney Mullen",
+      "image": "https://almostskateboards.com/cdn/shop/articles/TEAM_Mullen_1296x.png?v=1647976027",
+      "feed": [
+        "https://media.tenor.com/o1sxdKORagMAAAAd/rondey-mullen-john-rodney-mullen.gif",
+        "https://i.pinimg.com/originals/6a/be/a4/6abea45c4684f2c133493a8539b18b75.gif",
+        "https://i.pinimg.com/originals/92/59/d7/9259d7242225c239bfc6d7de0fa9c213.gif"
+      ],
+      "following": true
+    },
+    {
+      "id": 2,
+      "name": "Vincent Alvarez",
+      "image": "https://boardridingstorageus.blob.core.windows.net/images/resize/vincent-alvarez-2329.jpg",
+      "feed": [
+        "https://skateparkoftampa.com/spot/images3/taj8switchfsblunt.gif",
+        "https://skateparkoftampa.com/spot/images5/cph10Vincent.gif",
+        "https://skateparkoftampa.com/spot/images5/vdts10VincentSwitchBlunt.gif",
+        "https://ryot.com/wp-content/uploads/2021/05/vin1.jpg"
+      ],
+      "following": false
+    },
+    {
+      "id": 3,
+      "name": "Sean Malto",
+      "image": "https://www.mountaindew.com/wp-content/uploads/2022/12/19MD_Website-Images_Sean_1199x1335_R2.jpg",
+      "feed": [
+        "https://25.media.tumblr.com/a221730f3bba8b38c3cd0cc36d55112b/tumblr_mghucwoK9d1r4gouco1_500.gif",
+        "https://i.gifer.com/4h2R.gif",
+        "https://64.media.tumblr.com/63aa5a13ce983481bc0c7b0ef475ed50/tumblr_n5y23gwf901trvjz6o1_400.gif",
+        "https://media.giphy.com/media/WHjRRJFCfooms/giphy.gif"
+      ],
+      "following": false
+    }
+  ]
 }
