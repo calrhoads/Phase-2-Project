@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState} from 'react'
 
-function SkaterCards({skater,patchSkatersFollowingStatus}) {
+function SkaterCards({skater,patchSkatersFollowingStatus,deleteSkater}) {
+    console.log(deleteSkater)
     const [follow,setFollow] = useState(skater.following)
     const {id,name,image,feed,following} = skater
     
@@ -19,6 +20,7 @@ function SkaterCards({skater,patchSkatersFollowingStatus}) {
                 patchSkatersFollowingStatus(id,false)
                 setFollow(false)}} className='primary'>Unfollow</button>
             )}
+            <button onClick={()=>deleteSkater(id)}>Gnarly Wipeout 🤕</button>
         </div>
     )
 }
