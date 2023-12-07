@@ -1,12 +1,13 @@
 import React from "react"
+import { useNavigate } from "react-router-dom"
 import SearchBar from "./SearchBar"
 import Navbar from './Navbar'
 
 function Header({setSearch}){
-
+    const navigate = useNavigate()
 
     return  <header>
-                <h1>
+                <h1 onClick={()=>{navigate('/')}} >
                     RADALOGUE
                 </h1>
                 <h2>
