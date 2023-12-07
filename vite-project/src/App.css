@@ -5,7 +5,6 @@ html, body, #root {
   background-color: black;
   color:white;
   font-family: 'Cormorant Garamond', serif;
-
 }
 
 header {
@@ -48,8 +47,8 @@ label {
 }
 
 .skaterCards {
-  width: 500px;
-  height: 500px;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 .brandCards {
@@ -60,6 +59,10 @@ label {
 .title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 75px;
+}
+
+.title:hover {
+  color:#FB3640
 }
 
 .subtitle {
@@ -84,6 +87,10 @@ label {
 .button {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: x-large;
+}
+
+.button:hover {
+  background-color: #FB3640;
 }
 
 .newskater {
@@ -118,4 +125,29 @@ label {
 
 .brandfeedimage {
   max-width: 800px;
+  padding-top: 200px;
+}
+
+.home-image {
+  margin-top: 120px ;
+  width:1630px
+}
+
+.yourskaterfeed {
+  max-width: 400px;
+}
+
+.yourbrandfeed {
+  max-width: 800px;
+  text-align: center;
+}
+
+.skaterfeedimage {
+  max-width: 800px;
+  padding-top: 200px;
+
+}
+
+.skaterfollowbutton {
+
 }

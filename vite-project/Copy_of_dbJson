@@ -34,6 +34,30 @@
         "https://scene7.zumiez.com/is/image/zumiez/product_main_medium/Girl-3D-OG-Black-T-Shirt-_322205-front-US.jpg"
       ],
       "following": false
+    },
+    {
+      "id": 4,
+      "name": "Element",
+      "image": "https://pbs.twimg.com/profile_images/732854203098497024/6tnGhiCK_400x400.jpg",
+      "feed": [
+        "https://m.media-amazon.com/images/I/A1EHx4FHFjL._AC_CLa%7C2140%2C2000%7CA1lHb4wo6wL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_UY1000_.png",
+        "https://i.ebayimg.com/images/g/PTcAAOSwn4tdz5jO/s-l400.jpg",
+        "https://images.boardriders.com/global/element-products/all/default/large/alyxd00158_element,f_ast_frt1.jpg",
+        "https://images.boardriders.com/global/element-products/all/default/large/colg3fgc_element,f_ast_dtl1.jpg"
+      ],
+      "following": false
+    },
+    {
+      "id": 5,
+      "name": "Vans",
+      "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/snake-vans-logo-bondan-tyo.jpg",
+      "feed": [
+        "https://imagescdn.simons.ca/images/8728-3702-1-A1_3/demolition-derby-t-shirt.jpg?__=3",
+        "https://static.musictoday.com/store/bands/1551/product_600/XZAMSS121A.PNG",
+        "https://scene7.zumiez.com/is/image/zumiez/product_main_medium/Vans-Flower-Shoppe-II-Black-T-Shirt-_358460-front-US.jpg",
+        "https://www.cleveland.com/resizer/QaqLFuR6ct_WrPw2cHIEidszkUE=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/ZRUBOZPF4JFKLKWAAC6U56VSYA.png"
+      ],
+      "following": true
     }
   ],
   "Skaters": [
@@ -73,11 +97,26 @@
       "following": false
     },
     {
-      "name": "wabafet",
-      "image": "https://www.seekpng.com/png/detail/368-3685890_202-wobbuffet-os-pokemon-wabafet.png",
-      "feed": "",
-      "following": "",
-      "id": 6
+      "id": 4,
+      "name": "Tony Hawk",
+      "image": "https://people.com/thmb/yIeNk6n3SYAwVTU8mhEfsV3OrJg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2)/tony-hawk-b730769b3de64b7c97633d493b79d43b.jpg",
+      "feed": [
+        "https://media2.giphy.com/media/dB5s4Qbr3j59WOmRRd/giphy.gif",
+        "https://64.media.tumblr.com/77b9a687f62f379a9d4b61fc40a573ed/tumblr_n5k221qUU11tbv838o1_500.gif",
+        "https://gifbin.com/bin/062013/1371747790_tony_hawk_serves_andy_mcdonald_a_skateboard.gif"
+      ],
+      "following": false
+    },
+    {
+      "id": 5,
+      "name": "Nyjah Huston",
+      "image": "https://theboardr.blob.core.windows.net/headshots/662_900.jpg",
+      "feed": [
+        "https://media.tenor.com/SBBOio_UaJ8AAAAd/skateboarding-nyjah-huston.gif",
+        "https://64.media.tumblr.com/7193cfbac048882169f483116d494c47/tumblr_n7h0mvrB8Y1rkfygeo1_500.gif",
+        "https://media.tenor.com/G4njR8SaGPoAAAAd/skateboarding-nyjah-huston.gif"
+      ],
+      "following": false
     }
   ]
 }

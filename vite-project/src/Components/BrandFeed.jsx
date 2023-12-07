@@ -4,7 +4,7 @@ function BrandFeed({brand}) {
     console.log(brand)
     return (
     <>
-        <div>
+        <div className="yourbrandfeed">
             {brand.feed.map((feedItem,index) => (
                 <img className="brandfeedimage" key={index} src={feedItem} alt={`Feed Image ${index}`} />
             ))}

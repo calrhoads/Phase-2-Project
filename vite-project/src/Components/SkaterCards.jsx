@@ -12,13 +12,13 @@ function SkaterCards({skater,patchSkatersFollowingStatus,deleteSkater}) {
             <img className='skaterCards' src={skater.image} />
             {follow === false ? (
            
-            <button onClick={()=>{
+            <button className="skaterfollowbutton" onClick={()=>{
                 patchSkatersFollowingStatus(id,true)
-                setFollow(true)}} className="primary">Follow</button>
+                setFollow(true)}} >Follow</button>
             ) : (
-            <button onClick={()=>{
+            <button className="skaterfollowbutton" onClick={()=>{
                 patchSkatersFollowingStatus(id,false)
-                setFollow(false)}} className='primary'>Unfollow</button>
+                setFollow(false)}} >Unfollow</button>
             )}
             <button onClick={()=>deleteSkater(id)}>Gnarly Wipeout 🤕</button>
         </div>

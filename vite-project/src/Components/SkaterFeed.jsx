@@ -3,9 +3,10 @@ import React from "react";
 function SkaterFeed({skater}) {
     return (
     <>
-        <div>
+        <div className="yourskaterfeed">
             {skater.feed.map((skater,index) => (
-                <img key={index} src={skater} alt={`Feed Image ${index}`} />
+                <img className='skaterfeedimage' key={index} src={skater} alt={`Feed Image ${index}`} /> 
+                
             ))}
         </div>
     </>
