@@ -1,8 +1,8 @@
 import React from "react"
 import BrandCards from "./BrandCards"
-function BrandCatalogue({brandList}){
+function BrandCatalogue({brandList,patchBrandsFollowingStatus}){
     const mappedBrands = brandList.map((brand) =>{
-        return <BrandCards key={brand.id} brand={brand} />
+        return <BrandCards key={brand.id} brand={brand} patchBrandsFollowingStatus={patchBrandsFollowingStatus}/>
     })
     return(
         <>

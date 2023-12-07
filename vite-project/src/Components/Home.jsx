@@ -51,15 +51,37 @@ function patchSkatersFollowingStatus(id,isFollowing) {
     })
 }
 
+function patchBrandsFollowingStatus(id,isFollowing) {
+    fetch (`http://localhost:3000/Brands/${id}`,{
+        method:"PATCH",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body:JSON.stringify({
+            following : isFollowing,
+        })
+    })
+    .then(r=>r.json())
+    .then(data => {
+        const brandFollowingStatus = brandList.map(brand =>{
+            if(brand.id === id){
+                return data
+            }
+                return brand
+        })
+        setBrandList(brandFollowingStatus)
+    })
+}
+
     return(
         <>
         <BrowserRouter>
         <Header />
         <Routes>
-            <Route path='/' element={<div></div>} />
-            <Route path='/BrandCatalogue' element={<BrandCatalogue brandList={brandList} />} />
+            <Route path='/' element={<img width='1630px' src='https://wallpapers.com/images/hd/skateboard-in-the-sunset-frrwj7mc1y1qv957.jpg'/>} />
+            <Route path='/BrandCatalogue' element={<BrandCatalogue brandList={brandList} patchBrandsFollowingStatus={patchBrandsFollowingStatus}/>} />
             <Route path='/SkaterCatalogue' element={<SkaterCatalogue skaterList={skaterList} patchSkatersFollowingStatus={patchSkatersFollowingStatus} />} />
-            <Route path='/Feed' element={<Feed skaterList={skaterList}/>} />
+            <Route path='/Feed' element={<Feed skaterList={skaterList} brandList={brandList}/>} />
         </Routes>
         </BrowserRouter>
         </>
