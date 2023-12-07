@@ -8,8 +8,8 @@ function BrandCards({brand , patchBrandsFollowingStatus}) {
     
     return (
         <div className="brand">
-            <h3>{brand.name}</h3>
-            <img src={brand.image} />
+            <h3 className="brandname">{brand.name}</h3>
+            <img className='brandCards' src={brand.image} />
             {follow === false ? (
            
            <button onClick={()=>{

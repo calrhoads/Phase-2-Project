@@ -40,7 +40,7 @@ function SkaterCatalogue({skaterList,patchSkatersFollowingStatus,search,setSkate
     return(
         <>
         <NewSkaterForm addSkater={addSkater} />
-        <h2>Pro Skaters</h2>
+        <h2 className="proskaters">Pro Skaters</h2>
         <div className="skater-catalogue">
             {mappedSkaters}
         </div>

@@ -6,7 +6,7 @@ function BrandFeed({brand}) {
     <>
         <div>
             {brand.feed.map((feedItem,index) => (
-                <img key={index} src={feedItem} alt={`Feed Image ${index}`} />
+                <img className="brandfeedimage" key={index} src={feedItem} alt={`Feed Image ${index}`} />
             ))}
         </div>
     </>

@@ -42,27 +42,80 @@ label {
   width:auto;
 }
 
-/* .brand-catalogue {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  row-gap: .25em;
-  column-gap: 1em; 
-  width:350px;
-  overflow-y:auto;
-} */
+.skater {
+  width: auto;
 
-/* .skater-catalogue {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  row-gap: .25em;
-  column-gap: 1em; 
-  width:350px;
-  overflow-y:auto;
-} */
+}
 
-/* .vl {
-  border-left: 1px solid white;
-  height: 100%;
-} */
+.skaterCards {
+  width: 500px;
+  height: 500px;
+}
+
+.brandCards {
+  width: 500px;
+  height:500px;
+}
+
+.title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 75px;
+}
+
+.subtitle {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+}
+
+.subtitle2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.search {
+  font-family: fantasy;
+}
+
+.new-skater-form {
+  margin-top: 120px;
+  text-align: right;
+  border-bottom:crimson
+}
+
+.button {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+}
+
+.newskater {
+  font-family: fantasy;
+}
+
+.proskaters {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.skatername {
+  font-family: fantasy;
+}
+
+.skateBrands {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 120px;
+}
+
+.brandname {
+  font-family: fantasy;
+}
+
+.yourfeed {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 120px;
+}
+
+.feed {
+  text-align: center;
+}
+
+.brandfeedimage {
+  max-width: 800px;
+}

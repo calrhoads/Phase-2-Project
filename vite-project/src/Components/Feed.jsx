@@ -21,7 +21,7 @@ function Feed({ skaterList, brandList }) {
   console.log(filteredBrands)
     return (
     <>
-      <h2>Your Feed</h2>
+      <h2 className='yourfeed'>Your Feed</h2>
       <div className="feed">
         {filteredBrands.map(brand => (
             <BrandFeed key={brand.id} brand={brand}/>

@@ -13,7 +13,7 @@ function NewSkaterForm({addSkater}) {
   }
   return (
     <div className="new-skater-form">
-      <h2>New Skater</h2>
+      <h2 className="newskater">New Skater?</h2>
       <form key={"newSkater"} onSubmit={(e)=>submit(e)}>
         <input type="text" name="name" placeholder="Skater name" />
         <input type="text" name="image" placeholder="Image URL" />

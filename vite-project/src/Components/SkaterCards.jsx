@@ -8,8 +8,8 @@ function SkaterCards({skater,patchSkatersFollowingStatus,deleteSkater}) {
     
     return (
         <div className="skater">
-            <h3>{skater.name}</h3>
-            <img src={skater.image} />
+            <h3 className='skatername'>{skater.name}</h3>
+            <img className='skaterCards' src={skater.image} />
             {follow === false ? (
            
             <button onClick={()=>{

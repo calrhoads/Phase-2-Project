@@ -10,7 +10,7 @@ function BrandCatalogue({brandList,patchBrandsFollowingStatus,search}){
     })
     return(
         <>
-        <h2>Skate Brands</h2>
+        <h2 className="skateBrands">Skate Brands</h2>
         <div className="brand-catalogue">
             {mappedBrands}
         </div>
