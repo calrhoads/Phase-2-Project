@@ -2,7 +2,7 @@ import React from "react"
 import SearchBar from "./SearchBar"
 import Navbar from './Navbar'
 
-function Header(){
+function Header({setSearch}){
 
 
     return  <header>
@@ -14,7 +14,7 @@ function Header(){
                 </h2>
                 <h3>Set Up Your Feed By Following Your Favorite Skaters and Brands</h3>
                 <hr/>
-                <SearchBar/>
+                <SearchBar setSearch={setSearch}/>
                 <Navbar/>
             </header>
 }

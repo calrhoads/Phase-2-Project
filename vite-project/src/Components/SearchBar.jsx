@@ -1,5 +1,5 @@
 import React from "react"
-function SearchBar(){
+function SearchBar({setSearch}){
     return (
     <div className="searchbar">
     <label htmlFor="search">Search for something rad: </label>

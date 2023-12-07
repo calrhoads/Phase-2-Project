@@ -12,6 +12,7 @@ import Header from './Header'
 function Home(){
     const [brandList,setBrandList] = useState([])
     const [skaterList,setSkaterList] = useState([])
+    const [search,setSearch] = useState("")
     
     useEffect(()=> {
         fetch ('http://localhost:3000/Brands')
@@ -76,11 +77,11 @@ function patchBrandsFollowingStatus(id,isFollowing) {
     return(
         <>
         <BrowserRouter>
-        <Header />
+        <Header setSearch={setSearch}/>
         <Routes>
             <Route path='/' element={<img width='1630px' src='https://wallpapers.com/images/hd/skateboard-in-the-sunset-frrwj7mc1y1qv957.jpg'/>} />
-            <Route path='/BrandCatalogue' element={<BrandCatalogue brandList={brandList} patchBrandsFollowingStatus={patchBrandsFollowingStatus}/>} />
-            <Route path='/SkaterCatalogue' element={<SkaterCatalogue skaterList={skaterList} patchSkatersFollowingStatus={patchSkatersFollowingStatus} />} />
+            <Route path='/BrandCatalogue' element={<BrandCatalogue brandList={brandList} patchBrandsFollowingStatus={patchBrandsFollowingStatus} search={search}/>} />
+            <Route path='/SkaterCatalogue' element={<SkaterCatalogue skaterList={skaterList} patchSkatersFollowingStatus={patchSkatersFollowingStatus} search={search} />} />
             <Route path='/Feed' element={<Feed skaterList={skaterList} brandList={brandList}/>} />
         </Routes>
         </BrowserRouter>
