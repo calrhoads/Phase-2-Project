@@ -14,7 +14,7 @@ function Header({setSearch}){
                     Your Personalized Collection of the Raddest of the Rad 😎
                 </h2>
                 <h3 className="subtitle2">Set Up Your Feed By Following Your Favorite Skaters and Brands</h3>
-                <hr/>
+                <hr className="hr1"/>
                 <SearchBar setSearch={setSearch}/>
                 <Navbar/>
             </header>

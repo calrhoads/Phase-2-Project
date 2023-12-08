@@ -7,9 +7,14 @@ function SkaterCards({skater,patchSkatersFollowingStatus,deleteSkater}) {
     const {id,name,image,feed,following} = skater
     
     return (
+        <>
         <div className="skater">
             <h3 className='skatername'>{skater.name}</h3>
             <img className='skaterCards' src={skater.image} />
+            
+            
+        </div>
+        <div className='gnarlywipeout'>
             {follow === false ? (
            
             <button className="skaterfollowbutton" onClick={()=>{
@@ -20,8 +25,10 @@ function SkaterCards({skater,patchSkatersFollowingStatus,deleteSkater}) {
                 patchSkatersFollowingStatus(id,false)
                 setFollow(false)}} >Unfollow</button>
             )}
-            <button onClick={()=>deleteSkater(id)}>Gnarly Wipeout 🤕</button>
+            <hr className='hr2'/>
+            <button className="gnarlywipeoutbutton" onClick={()=>deleteSkater(id)}>Gnarly Wipeout 🤕</button>
         </div>
+        </>
     )
 }
 
